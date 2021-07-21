@@ -84,7 +84,7 @@ begin
 		zi_lit_unu => zi_lit_1,
 		zi_lit_doi => zi_lit_2);	
 		
-	temperatura_componnta : entity work.temperatura port map(clock => semnal_pentru_zi,
+	temperatura_componenta : entity work.temperatura port map(clock => semnal_pentru_zi,
 		reset => reset, 
 		temperatura_zeci => temp_1_aux,
 		temperatura_unitati => temp_2_aux);	  
